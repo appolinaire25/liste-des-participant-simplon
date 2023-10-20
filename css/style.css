@@ -1,0 +1,25 @@
+.body-insct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+.form-container {
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.cont:focus{
+    border-color: #ff0000;
+    box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.25);
+}
+.btn-danger {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    width: 45%;
+}
